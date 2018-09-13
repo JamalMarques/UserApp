@@ -148,6 +148,18 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
                     listener.recyclerViewOnItemClickListener(v, getLayoutPosition(), renderingList.get(getLayoutPosition()));
             });
         }
+
+        public void clearAnimation() {
+            itemView.clearAnimation();
+        }
+    }
+
+    /**
+     * Called when a view created by this adapter has been detached from its window.
+     */
+    @Override
+    public void onViewDetachedFromWindow(@NonNull ViewHolder holder) {
+        ((ViewHolder) holder).clearAnimation();
     }
 
     private void setAnimation(View viewToAnimate, int position) {
