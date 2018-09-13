@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ======== Toolbar dimens ======== -->
+    <dimen name="toolbar_default_elevation">4dp</dimen>
+    <dimen name="custom_notification_padding">3dp</dimen>
+
+
+    <!-- ======== Text dimens ======== -->
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_huge">18sp</dimen>
+    <dimen name="text_size_huge_2">20sp</dimen>
+    <dimen name="text_size_huge_3">22sp</dimen>
+    <dimen name="text_size_huge_4">24sp</dimen>
+    <dimen name="text_size_title">30sp</dimen>
+
+    <!-- ======== Spacing dimens ======== -->
+    <dimen name="spacing_tiny_1dp">1dp</dimen>
+    <dimen name="spacing_tiny">2dp</dimen>
+    <dimen name="spacing_tiny_3dp">3dp</dimen>
+    <dimen name="spacing_small">5dp</dimen>
+    <dimen name="spacing_small_2">8dp</dimen>
+    <dimen name="spacing_normal">10dp</dimen>
+    <dimen name="spacing_medium">15dp</dimen>
+    <dimen name="spacing_medium_2">17dp</dimen>
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="spacing_large_2">22dp</dimen>
+    <dimen name="spacing_larger">25dp</dimen>
+    <dimen name="spacing_extra_large">30dp</dimen>
+    <dimen name="spacing_huge">35dp</dimen>
+    <dimen name="spacing_huge_2">40dp</dimen>
+    <dimen name="spacing_ginormous">50dp</dimen>
+    <dimen name="spacing_extra_ginormous">55dp</dimen>
+
+    <!--Card dimens-->
+    <dimen name="card_corner_default">8dp</dimen>
+    <dimen name="card_elevation_default">5dp</dimen>
+
+    <!--User list-->
+    <dimen name="profile_width_height">70dp</dimen>
+    <dimen name="user_detail_icon_size">35dp</dimen>
+
+</resources>

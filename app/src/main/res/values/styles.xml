@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/common_text_style</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/primaryTextColorTitle</item>
+        <item name="android:textColorSecondary">@color/primaryTextColorTitle</item>
+    </style>
+
+
+    <!--Text Style Base-->
+    <style name="common_text_style">
+        <!-- add stuffs here if needed-->
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+
+</resources>
