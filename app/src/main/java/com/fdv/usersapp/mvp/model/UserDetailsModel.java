@@ -1,6 +1,5 @@
 package com.fdv.usersapp.mvp.model;
 
-import com.fdv.usersapp.models.User;
 import com.fdv.usersapp.mvp.contract.UserDetailsContract;
 import com.squareup.otto.Bus;
 

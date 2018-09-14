@@ -31,12 +31,17 @@ public class BaseModel implements RetrofitManager {
      */
     @Override
     public void stopCancellableRetrofitRequest() {
+
+        List<Call> toRemove = new ArrayList<>();
         for (Call call : cancellableRetrofitCalls) {
             if (!call.isCanceled()) {
-                removeRetrofitCall(call);
                 call.cancel();
+                toRemove.add(call);
             }
         }
+
+        /*Clear canceled*/
+        cancellableRetrofitCalls.removeAll(toRemove);
     }
 
     /**
@@ -81,9 +86,6 @@ public class BaseModel implements RetrofitManager {
         cancellableRetrofitCalls.add(call);
     }
 
-    private void removeRetrofitCall(Call call) {
-        cancellableRetrofitCalls.remove(call);
-    }
 
     /**
      * Call API endpoint with retrofit
