@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Location {
 
     @SerializedName("street")
-    private String street;
+    private Street street;
     @SerializedName("city")
     private String city;
     @SerializedName("state")
@@ -17,11 +17,11 @@ public class Location {
     @SerializedName("timezone")
     private TimeZone timezone;
 
-    public String getStreet() {
+    public Street getStreet() {
         return street;
     }
 
-    public void setStreet(String street) {
+    public void setStreet(Street street) {
         this.street = street;
     }
 
